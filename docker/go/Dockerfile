@@ -4,7 +4,7 @@ FROM alpine:3.20
 LABEL maintainer="Firhan Ali <alifirhan.fa@gmail.com>"
 LABEL description="Customized image for business purposes developed by Firhan Ali."
 
-# Install dependensi yang dibutuhkan untuk Go
+# Install dependencies needed for Go
 RUN apk update && \
     apk add --no-cache \
     ca-certificates \
@@ -14,7 +14,7 @@ RUN apk update && \
     wget \
     && update-ca-certificates
 
-# Download dan install Go binary versi 1.22.5
+# Download and install Go binary version 1.22.5
 ENV GOLANG_VERSION 1.22.5
 ENV GOLANG_DOWNLOAD_URL https://golang.org/dl/go${GOLANG_VERSION}.linux-amd64.tar.gz
 ENV GOLANG_DOWNLOAD_SHA256 904b924d435eaea086515bc63235b192ea441bd8c9b198c507e85009e6e4c7f0

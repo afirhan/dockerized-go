@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: docker/go/Dockerfile
     image: afirhan/go:1.22.5-alpine3.20
-    container_name: go-backend  # Nama container yang diinginkan
+    container_name: go-backend
     ports:
       - "8080:8080"
     volumes:
