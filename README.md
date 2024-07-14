@@ -5,7 +5,6 @@ This repository provides a Dockerized setup for running Go applications. It incl
 
 ## Prerequisites
 Ensure you have Docker installed on your machine before proceeding.
-<br></br>
 
 ## Installation
 Clone the repository:
@@ -13,7 +12,6 @@ Clone the repository:
 git clone <repository-url>
 cd dockerized-go
 ```
-<br></br>
 
 ## Usage
 ### Build the Docker Image
@@ -56,11 +54,9 @@ To clean up and remove all Docker resources including stopped containers, networ
 make clean
 ```
 This command stops all running containers, removes all stopped containers, and prunes Docker networks and volumes.
-<br></br>
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-<br></br>
 
 ## Contact
 For any inquiries or support, please contact [alifirhan.fa@gmail.com](mailto:alifirhan.fa@gmail.com).
