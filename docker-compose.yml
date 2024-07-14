@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/go/Dockerfile
+    image: afirhan/go:1.22.5-alpine3.20
+    container_name: go-backend  # Nama container yang diinginkan
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./src:/app
+    command: sh -c "while :; do sleep 1; done"  # Keeps the container running
