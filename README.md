@@ -1,7 +1,7 @@
 # Dockerized Go Application
 
 ## Description
-This repository provides a Dockerized setup for running Go applications. It includes a Dockerfile configured for Alpine Linux and a Makefile for streamlined Docker operations.
+This repository provides a Dockerized environment for running Go applications. It includes a Dockerfile based on Alpine Linux and a Makefile to streamline Docker-related tasks.
 
 ## Prerequisites
 Ensure you have Docker installed on your machine before proceeding.
